@@ -980,7 +980,7 @@ li {
 
 .main-header .nav-outer {
     position: relative;
-    padding-right: 200px;
+    /*padding-right: 200px;*/
     background: none;
     margin-top: 5px;
 }
@@ -1274,6 +1274,8 @@ li {
 }
 
 .main-header .btn-outer {
+    /*Nex line added by JC at Abrelatas on 15-01-2018*/
+    display: none;
     position: absolute;
     right: 0px;
     top: 0px;
