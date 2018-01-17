@@ -84,7 +84,7 @@
                                     <div class="navbar-collapse collapse clearfix">
                                         <ul class="navigation clearfix">
                                             <li><a href="index.html">Inicio</a></li>
-                                            <li class="current"><a href="proyecto-horizonte-el-tapatio.html">El Proyecto</a></li>
+                                            <li><a href="proyecto-horizonte-el-tapatio.html">El Proyecto</a></li>
                                             <li class="dropdown"><a href="#">Modelos de casas</a>
                                                 <ul>
                                                     <li><a href="modelo-primavera.html">Primavera</a></li>
@@ -92,8 +92,8 @@
                                                     <li><a href="modelo-jacaranda.html">Jacaranda</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="bitacora.html">Bitácora</a></li>                                        
-                                            <li><a href="contacto.html">Contacto</a></li>
+                                            <li><a href="bitacora.html">Bitácora</a></li>
+                                            <li class="current"><a href="contacto.html">Contacto</a></li>
                                         </ul>
                                     </div>
                                 </nav><!-- Main Menu End-->
@@ -126,7 +126,7 @@
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
                                     <li><a href="#">Inicio</a></li>
-                                    <li class="current"><a href="proyecto-horizonte-el-tapatio.html">El Proyecto</a></li>
+                                    <li><a href="proyecto-horizonte-el-tapatio.html">El Proyecto</a></li>
                                     <li class="dropdown"><a href="#">Modelos de casas</a>
                                         <ul>
                                             <li><a href="modelo-primavera.html">Primavera</a></li>
@@ -135,7 +135,7 @@
                                         </ul>
                                     </li>
                                     <li><a href="bitacora.html">Bitácora</a></li>
-                                    <li><a href="contacto.html">Contacto</a></li>
+                                    <li class="current"><a href="contacto.html">Contacto</a></li>
                                 </ul>
                             </div>
                         </nav><!-- Main Menu End-->
@@ -148,146 +148,88 @@
         <section class="page-title" style="background-image:url(images/background/page-title-bg-1.jpg);">
             <div class="auto-container">
                 <div class="content-box">
-                    <h1>Proyecto</h1>
-                    <div class="bread-crumb">Conoce el desarrollo</div>
+                    <h1>Contáctanos</h1>
+                    <div class="bread-crumb">Envíanos un mensaje</div>
                 </div>
             </div>
         </section>
-
-        <section class="about-section2">
+        <section class="map-section">
+            <div class="google-map" id="contact-google-map" data-map-lat="23.819322" data-map-lng="90.415283" data-icon-path="images/icons/map-marker.png" data-map-title="Awesome Place" data-map-zoom="14">     
+            </div>
+        </section>
+        <!--Contact Section-->
+        <section class="default-section faded-section contact-section" style="background-image:url(images/background/contact-bg.jpg);">
             <div class="auto-container">
                 <div class="row clearfix">
-                    <!--Image Column-->
-                    <div class="image-column col-md-5 col-sm-12 col-xs-12">
-                        <figure class="image"><img src="images/resource/7.jpg" alt=""></figure>
-                    </div>
-                    <!--Content Column-->
-                    <div class="content-column col-md-7 col-sm-12 col-xs-12">
+                    <!--Column-->
+                    <div class="col-md-7 col-sm-12 col-xs-12 column col-left">
                         <div class="sec-title style-2">
-                            <h2>ACERCA <span>DEL PROYECTO</span></h2>
-                            <div class="separator small-separator"></div>
+                            <h2>envíanos <span>un mensaje</span></h2>
                         </div>
-                        <div class="headding">
-                            <p>
-                            Lorem ipsum dolor sit amet, <b>pro ne honestatis sadipscing</b> detraxit salutatus mei. Omnis labor eos ne, scripta facilisi dissentias mel ex, ex vis semper adolescens delicatissimi.
-                            </p>
+                        <!--Contact Form-->
+                        <div class="contact-form">
+                            <form method="post" id="contact-form" action="sendemail.php">
+
+                                <div class="row clearfix">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <input type="text" name="username" value="" placeholder="Nombre Completo" required="">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" name="useremail" value="" placeholder="Correo Electrónico" required="">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" name="phone" value="" placeholder="Teléfono" required="">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" name="subject" value="" placeholder="Asunto" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <textarea name="message" placeholder="Mensaje"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                                        <button type="submit" name="submit" class="theme-btn btn-style-one">Enviar</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
-                        <div class="text">
-                            <p>Lorem ipsum dolor sit amet, ad vis dicat essent expetenda, an vel dicit choro ani Sumo repudiare ei pri. Eius intellegat per te. Quando oportere maiestatis qui ut, quo aeterno definiebas sadipscing ne. Eu fierent tacimates partiendo mea, meis putant vocent qui et,</p>
-                            <p> vis ei erroribus similique.Cum saepe disputationi in. Id mentitum perpetua mnesarchum per. Ne vix odio dicit numquam, audiam inermis eu nam. </p>
+                    </div>
+                    <!--Column-->
+                    <div class="col-md-5 col-sm-12 col-xs-12 column col-right">
+                        <div class="sec-title style-2">
+                            <h2>Estamos <span>en</span></h2>
                         </div>
-                    </div>   
-                </div>
-                <div class="services-outer">
-                    <div class="row clearfix">
-                        <!--Column-->
-                        <article class="col-md-4 col-sm-6 col-xs-12 column wow fadeInLeft animated" data-wow-delay="0ms" data-wow-duration="1500ms" >
-                            <div class="inner-box">
-                                <div class="icon-left"><span class="icon flaticon-tick"></span><span class="number">1</span></div>
-                                <div class="content">
-                                    <h3>Texto demostración</h3>
-                                    <p>Lorem ipsum dolor sit amet, et sectetu adipiscing elit, sed do lilae eiusmod at tempor.</p>
-                                </div>
-                            </div>
-                        </article>
-                        
-                        <!--Column-->
-                        <article class="col-md-4 col-sm-6 col-xs-12 column wow fadeInLeft animated" data-wow-delay="300ms" data-wow-duration="1500ms" >
-                            <div class="inner-box">
-                                <div class="icon-left"><span class="icon flaticon-tick"></span><span class="number">2</span></div>
-                                <div class="content">
-                                    <h3>Texto demostración</h3>
-                                    <p>Lorem ipsum dolor sit amet, et sectetu adipiscing elit, sed do lilae eiusmod at tempor.</p>
-                                </div>
-                            </div>
-                        </article>
-                        
-                        <!--Column-->
-                        <article class="col-md-4 col-sm-6 col-xs-12 column wow fadeInLeft animated" data-wow-delay="600ms" data-wow-duration="1500ms" >
-                            <div class="inner-box">
-                                <div class="icon-left"><span class="icon flaticon-tick"></span><span class="number">3</span></div>
-                                <div class="content">
-                                    <h3>Texto demostración</h3>
-                                    <p>Lorem ipsum dolor sit amet, et sectetu adipiscing elit, sed do lilae eiusmod at tempor.</p>
-                                </div>
-                            </div>
-                        </article>
+                        <div class="desc-text">
+                            <p>Lorem ipsum dolor sit amet, epicuri fierent mediocritat nam corrumpit consequat. At usu saepe possit</p>
+                        </div>
+                        <!--Contact Info-->
+                        <ul class="contact-info">
+                            <li>
+                                <span class="icon flaticon-location"></span>
+                                <h3>Dirección</h3>
+                                <p>Av. de la Solidaridad Iberoamericana 1725 <br>
+                                Tlaquepaque, Jalisco.</p>
+                            </li>
+                            
+                            <li>
+                                <span class="icon flaticon-technology"></span>
+                                <h3>Teléfonos</h3>
+                                <p>(732) 803-01 03, (880)172380129</p>
+                            </li>
+                            
+                            <li>
+                                <span class="icon flaticon-interface-1"></span>
+                                <h3>Correo electrónico</h3>
+                                <p>short_mail@horizonteeltapatioresidencial.com</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
-        
-        <!--Testimonials-->
-        <!-- END Testimonials-->
-
-        <section class="recent-news">
-            <div class="container">
-                <div class="sec-title">
-                    <h2>Avances <span>del proyecto</span></h2>
-                    <div class="separator small-separator"></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-column hvr-float-shadow">
-                            <div class="img-box">
-                                <img src="images/resource/4.jpg" alt="">
-                            </div>
-                            <div class="content">
-                                <h3><span>26 feb 2016</span></h3>
-                                <h2><a href="#">Nombre del avance o tema general de la obra</a></h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been dsu met...</p>
-                                <a href="#" class="btn-style-default">ver más</a>
-                            </div>
-                        </div>   
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-column hvr-float-shadow">
-                            <div class="img-box">
-                                <img src="images/resource/5.jpg" alt="">
-                            </div>
-                            <div class="content">
-                                <h3><span>26 feb 2016</span></h3>
-                                <h2><a href="#">Nombre del avance o tema general de la obra</a></h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been dsu met...</p>
-                                <a href="#" class="btn-style-default">ver más</a>
-                            </div>
-                        </div>   
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-column hvr-float-shadow">
-                            <div class="img-box">
-                                <img src="images/resource/6.jpg" alt="">
-                            </div>
-                            <div class="content">
-                                <h3><span>26 feb 2016</span></h3>
-                                <h2><a href="#">Nombre del avance o tema general de la obra</a></h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been dsu met...</p>
-                                <a href="#" class="btn-style-default">ver más</a>
-                            </div>
-                        </div>   
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="call-out">
-            <div class="container">
-                <div class="row">
-
-                    <div class="column col-md-9 col-sm-12 col-xs-12">
-                        <h2>Solicitar información</h2>
-                        <p>Lorem ipsum dolor sit amet, est iisque facilisis an, te per soluta tempor delicata habeo.</p>
-                    </div>
-
-                    <div class="column col-md-3 col-sm-12 col-xs-12">
-                        <div class="text-right padd-top-20">
-                            <a href="#" class="theme-btn btn-style-one">Contactar</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!--Main Footer-->
         <footer class="main-footer">
             <div class="container">
