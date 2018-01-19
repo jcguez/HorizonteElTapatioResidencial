@@ -5104,7 +5104,7 @@ body.popup-visible {
 
 .four-col-theme .column .inner-box h3 {
     position: relative;
-    font-size: 30px;
+    font-size: 22px;
     color: #2f2f2f;
     font-weight: 700;
     margin-top: 35px;
@@ -7069,3 +7069,32 @@ body.boxed {
     background: #fff;
 }
 body section {background: #fff;}
+
+
+
+
+/*Estilos Abrelatas
+@author: Carlos Rodríguez;
+*/
+.main-header .header-upper .logo img, .sticky-header .auto-container .logo img, .max-h-65{
+  max-height: 65px;
+}
+.list-details-home > li{
+  color: white;
+}
+.list-details-home > li > span{
+  color: green;
+  font-size: 18px;
+  font-weight: 800;
+}
+.full-width{
+  width: 100% !important;
+}
+.list-proximities{
+  margin-bottom: 15px;
+}
+.list-proximities li{
+  margin-bottom: 5px;
+}
+
+

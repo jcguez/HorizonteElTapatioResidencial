@@ -597,6 +597,21 @@
 		enableMasonry();
 	});
 
+
+
+	// Scripts Abrelatas
+	function scrollToSection(section) {
+		$('html, body').animate({
+			scrollTop: $(section).offset().top
+		}, 800);
+	}
+
+
+	$(".item-scroll").click(function () {
+		var direccion = $(this).attr("href");
+		scrollToSection(direccion);
+	});
+
 	
 
 })(window.jQuery);
